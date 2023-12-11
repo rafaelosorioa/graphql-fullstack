@@ -1,5 +1,6 @@
 import { GraphQLScalarType, Kind } from 'graphql'
 
+// Method used to define our own scalar types
 export const DateTime = new GraphQLScalarType({
   name: 'DateTime',
   description: 'Represents a date time object',

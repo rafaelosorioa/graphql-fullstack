@@ -1,3 +1,4 @@
+#Use our own Scalar type
 scalar DateTime
 
 type Query {
@@ -9,6 +10,7 @@ type Mutation {
   createAvo(data: AvoCreateInput!): Avocado!
 }
 
+# Creates an entity used as base and which field I want that all my entities has
 interface BaseModel {
   id: ID!
   createdAt: DateTime!
@@ -23,6 +25,7 @@ type Attributes {
   taste: String
 }
 
+#Main Entity that uses others
 type Avocado implements BaseModel {
   id: ID!
   createdAt: DateTime!
