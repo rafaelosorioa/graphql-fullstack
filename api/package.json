@@ -12,6 +12,10 @@
     "apollo-server": "^3.3.0",
     "graphql": "^15.6.0",
     "nodemon": "^2.0.13",
+    "prisma": "^5.7.0",
     "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.7.0"
   }
 }
