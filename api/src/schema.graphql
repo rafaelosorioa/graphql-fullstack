@@ -1,4 +1,4 @@
-#Use our own Scalar type
+#Use our own Scalar
 scalar DateTime
 
 type Query {
